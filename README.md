@@ -1,3 +1,3 @@
-# Github Pages
+# BGM Uploader
 
-- [here](https://nuxa.github.io/gh-pages/)
+Homepage, privacy policy and terms for BGM Uploader: https://nuxa.github.io/bgm-uploader/

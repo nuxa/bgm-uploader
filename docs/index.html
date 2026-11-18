@@ -1,101 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="テストぺーじ">
-    <meta name="author" content="">
-    <title>Nuxa Github Pages</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BGM Uploader</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>BGM Uploader</h1>
+  <p class="lead">個人の YouTube チャンネル運営のための、非公開の内部ツールです。</p>
 
-    <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+  <h2>概要</h2>
+  <p>BGM Uploader は、運営者が自分で制作した作業用BGM動画を、運営者自身の YouTube チャンネルへアップロードするためのツールです。
+     運営者のPC上でのみ動作し、第三者への提供や一般公開は行っていません。</p>
+  <ul>
+    <li>運営者が制作した動画を、運営者の承認後に YouTube Data API でアップロードします。</li>
+    <li>使用する権限は動画のアップロード（<code>youtube.upload</code>）のみです。</li>
+    <li>他のユーザーのアカウントやデータにはアクセスしません。</li>
+  </ul>
 
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+  <h2 lang="en">About (English)</h2>
+  <p lang="en">BGM Uploader is a private, internal tool used by a single channel owner to upload
+     their own background-music videos to their own YouTube channel via the YouTube Data API.
+     It runs only on the owner's computer, is not offered to other users, and requests only the
+     <code>youtube.upload</code> scope.</p>
 
-    <link href="http://vjs.zencdn.net/4.2.0/video-js.css" rel="stylesheet">
-    <script src="http://vjs.zencdn.net/4.2.0/video.js"></script>
-  </head>
-  <body>
-    <div class="brand">Nuxa Github Pages</div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-          </button>
-          <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-          <a class="navbar-brand" href="index.html">Hoge Casual</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="index.html">About</a>
-            </li>
-            <li>
-              <a href="index.html">News</a>
-            </li>
-            <li>
-              <a href="index.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container -->
-    </nav>
-
-    <div class="container">
-      <div class="row">
-        <div class="box">
-          <div class="col-lg-12 text-center">
-            <!-- Indicators -->
-            <!-- Wrapper for slides -->
-            <!-- Controls -->
-            <h2 class="brand-before">
-              <small>ようこそ</small>
-            </h2>
-            <h1 class="brand-name">welcome</h1>
-            <p>ただのGithub Pagesのテストです。</p>
-            <hr class="tagline-divider">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="box">
-          <div class="col-lg-12 text-center">
-            <p>リポジトリは<a href="https://github.com/nuxa/gh-pages">こちら</a></p>
-            <a href="https://twitter.com/share" class="twitter-share-button" data-text="Nuxa Github Pagesどす" data-lang="ja">ツイート</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.container -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <p>Copyright &copy; xxxx 2017</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- jQuery -->
-    <script src="javascripts/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </body>
+  <p class="links"><a href="privacy.html">プライバシーポリシー / Privacy Policy</a> · <a href="terms.html">利用規約 / Terms of Service</a></p>
+  <footer>Contact: <a href="mailto:tanutune1@gmail.com">tanutune1@gmail.com</a></footer>
+</main>
+</body>
 </html>
